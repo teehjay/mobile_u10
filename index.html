@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rustic Portraits - The Art of L. Lawrence Bispo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!-- these are the three things jQuery Mobile NEEDS in order to work properly! -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" type="text/css" href="css/default.css" media="screen">
+<link rel="stylesheet" href="css/themes/rp.css">
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body data-theme="a">
+
+<!-- ### HOME ### -->
+
+<section data-role="page" id="home">
+
+<header data-role="header">
+<hgroup>
+<h1 id="siteId"><span>Rustic Portraits</span></h1>
+</hgroup>
+</header>
+
+<article data-role="content">
+<img src="images/arizonadaybreak_detail_sm.jpg" alt="Arizona Daybreak">
+</article>
+
+<nav id="main" data-role="navbar">
+<ul data-role="listview">
+<li><a href="#rustic" data-transition="slide">Rustic</a></li>
+<li><a href="#commission" data-transition="slide">Commission</a></li>
+<li><a href="#studies" data-transition="slide">Studies</a></li>
+</ul>
+</nav>
+
+<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+</section>
+
+<!-- ### RUSTIC ### -->
+
+<section data-role="page" id="rustic">
+
+<header data-role="header">
+<h1>Rustic</h1>
+<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right">Home</a>
+</header>
+
+<article data-role="content">
+<p>Rustic content.</p>
+</article>
+
+<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+</section><!-- end rustic page -->
+
+<!-- ### COMMISSION ### -->
+
+<section data-role="page" id="commission">
+
+<header data-role="header">
+<h1><span>Commission</span></h1>
+<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right">Home</a>
+</header>
+
+<article data-role="content">
+
+<section class="gall" id="gallery-items">
+
+<div class="gallnav">
+<a href="#joynaomi" data-transition="slide" title="Joy Naomi">
+<img src="images/joynaomi_th.jpg" alt="Joy Naomi" />
+<h4>Joy Naomi</h4>
+<p>Oil on Canvas, 12 x 16<br />Commission Portrait</p>
+</a>
+</div>
+
+<div class="gallnav">
+<a href="#joanne" data-transition="slide" title="Joanne">
+<img src="images/joanne_th.jpg" alt="Joanne" />
+<h4>Joanne</h4>
+<p>Oil on Canvas, 14 x 18<br />Commission Portrait</p>
+</a>
+</div>
+
+<div class="gallnav">
+<a href="#scarf" data-transition="slide" title="The Scarf">
+<img src="images/dana_th.jpg" alt="The Scarf" />
+<h4>The Scarf</h4>
+<p>Oil on Canvas, 12 x 16<br />Life study</p>
+</a>
+</div>
+
+<div class="gallnav">
+<a href="#fiona" data-transition="slide" title="Fiona">
+<img src="images/fiona_th.jpg" alt="Fiona" />
+<h4>Fiona</h4>
+<p>Pastel on Paper, 8.5 x 11<br />Commission portrait</p>
+</a>
+</div>
+
+</section>
+
+</article>
+
+<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+</section><!-- end commission page -->
+
+<!-- ### JOY NAOMI ### -->
+
+<section data-role="page" id="joynaomi">
+
+<header data-role="header">
+<a href="#commission" data-icon="back" data-iconpos="notext" data-transition="slide" data-direction="reverse">Back</a>
+<h2>Joy Naomi</h2>
+<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right">Home</a>
+</header>
+
+<section data-role="content">
+<div class="work">
+<a href="#img_joynaomi" title="Joy Naomi &ndash; detail" data-rel="dialog">
+<img src="images/joynaomi.jpg" alt="Joy Naomi" />
+</a>
+</div>
+<div class="description">
+<h3>Joy Naomi</h3>
+<p class="caption">Commission Portrait.</p>
+<p>Oil on Canvas, 8.5&nbsp;x&nbsp;11<br />Private collection.</p>
+<p class="inquire"><a href="#contact">Inquire about a portrait&nbsp;commission.</a></p>
+<p class="detail">Click image for detail.</p>
+</div>
+</section>
+
+<footer><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+</section><!-- end joy naomi page -->
+
+<section id="img_joynaomi">
+	<img src="images/joynaomi_detail.jpg" alt="Joy Naomi &ndash; detail">
+</section>
+
+<!-- ### JOANNE ### -->
+
+<section data-role="page" id="joanne">
+
+<header data-role="header">
+<a href="#commission" data-icon="back" data-iconpos="notext" data-transition="slide" data-direction="reverse">Back</a>
+<h2>Joanne</h2>
+<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right">Home</a>
+</header>
+
+<section data-role="content">
+<div class="work" id="joanne">
+<a href="images/joanne_detail.jpg" title="Joanne &ndash; detail" rel="lightbox" class="lightbox" target="picture">
+<img src="images/joanne.jpg" alt="Joanne" />
+</a>
+</div>
+<div class="description">
+<h3>Joanne</h3>
+<p class="caption">Commission Portrait.</p>
+<p>Oil on Canvas, 14&nbsp;x&nbsp;18<br />Private collection.</p>
+<p class="inquire"><a href="#contact">Inquire about a portrait&nbsp;commission.</a></p>
+<p class="detail">Click image for detail.</p>
+</div>
+</section>
+
+<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+</section><!-- end joanne page -->
+
+<!-- ### THE SCARF ### -->
+
+<section data-role="page" id="scarf">
+
+<header data-role="header">
+<a href="#commission" data-icon="back" data-iconpos="notext" data-transition="slide" data-direction="reverse">Back</a>
+<h2>The Scarf</h2>
+<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right">Home</a>
+</header>
+
+<section data-role="content">
+<div class="work" id="scarf">
+<a href="images/dana_detail.jpg" title="Joanne &ndash; detail" rel="lightbox" class="lightbox" target="picture">
+<img src="images/dana.jpg" alt="Dana" />
+</a>
+</div>
+<div class="description">
+<h3>The Scarf</h3>
+<p class="caption">Commission Portrait.</p>
+<p>Oil on Canvas, 14&nbsp;x&nbsp;18<br />Private collection.</p>
+<p class="inquire"><a href="#contact">Inquire about a portrait&nbsp;commission.</a></p>
+<p class="detail">Click image for detail.</p>
+</div>
+</section>
+
+<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+</section><!-- end the scarf page -->
+
+<!-- ### FIONA ### -->
+
+<section data-role="page" id="fiona">
+
+<header data-role="header">
+<a href="#commission" data-icon="back" data-iconpos="notext" data-transition="slide" data-direction="reverse">Back</a>
+<h2>Fiona</h2>
+<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right">Home</a>
+</header>
+
+<section data-role="content">
+<div class="work" id="fiona">
+<a href="images/fiona_detail.jpg" title="Joanne &ndash; detail" rel="lightbox" class="lightbox" target="picture">
+<img src="images/fiona.jpg" alt="Fiona" />
+</a>
+</div>
+<div class="description">
+<h3>Fiona</h3>
+<p class="caption">Commission Portrait.</p>
+<p>Pastel on paper, 11&nbsp;x&nbsp;14<br />Private collection.</p>
+<p class="inquire"><a href="#contact">Inquire about a portrait&nbsp;commission.</a></p>
+<p class="detail">Click image for detail.</p>
+</div>
+</section>
+
+<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+</section><!-- end joanne page -->
+
+<!-- ### STUDIES ### -->
+
+<section data-role="page" id="studies">
+
+<header data-role="header">
+<h1>Studies</h1>
+<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right">Home</a>
+</header>
+
+<article data-role="content">
+<p>Studious content.</p>
+</article>
+
+<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+</section><!-- end studies page -->
+
+<section data-role="page" id="contact">
+
+<header data-role="header">
+<h1>Contact</h1>
+<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-right">Home</a>
+</header>
+
+<article data-role="content">
+<p>Throw me a bone here!</p>
+</article>
+
+<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+</section><!-- end studies page -->
+
+</body>
+</html>
